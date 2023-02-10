@@ -1,4 +1,4 @@
-= Subway Application API Document
+= Dreamfora Boilerplate API Document
 :doctype: book
 :icons: font
 :source-highlighter: highlightjs
@@ -6,9 +6,34 @@
 :toclevels: 2
 :sectlinks:
 
+[[overview-http-verbs]]
+== 용어 정리
+
+API 에서 사용하는 공통된 용어는 다음과 같습니다.
+
+|===
+| 용어 | 설명
+
+| `Admin`
+| 관리자 권한을 가진 사용자를 지칭
+
+| `Member`
+| 이미 회원가입을 했고, 로그인을 한 상태로 서비스를 사용하는 사용자를 지칭
+
+| `Anonymous`
+| 로그인이 필요없는 익명 사용자를 지칭
+
+|===
+
 [[path]]
-== 지하철 경로
+== 사용자 관련 API
 
-=== 경로 조회
+=== 로그인
 
-operation::path[snippets='http-request,http-response']
+=== 회원 추가
+
+=== 회원목록 조회
+
+=== 회원정보 수정
+
+=== 회원탈퇴
